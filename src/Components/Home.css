@@ -1,0 +1,58 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    font-size: 100px;
+    color: black;
+    font-family: 'Arial', cursive;
+}
+
+
+/* .quiz-container {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+body {
+    background-color: rgba(54, 88, 110, 0.808);
+    font-family: 'Arial', cursive;
+    background-image: url('D:\StudentManagement-Frontend\public\download (2).png');
+
+    background-size: 100%;
+}
+
+
+
+.hello{
+    color: white;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.hello2{
+    color: white;
+    /* padding-top: 10px; */
+    font-size: 30px;
+}
+
+nav {
+    background-color: white;
+    font-family: 'Arial', cursive;
+    color: black;
+}

@@ -1,0 +1,35 @@
+/* NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Dancing+Script&display=swap');
+
+nav {
+    background-color: blue;
+    padding: 3px;
+    font-family: 'Arial', cursive;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-family: 'Arial', cursive;
+  }
+  
+  li {
+    margin-right: 10px;
+    font-family: 'Arial', cursive;
+    font-size: 13.5px;
+    padding: 9px;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#F3A61E;
+    font-family: 'Arial', cursive;
+    font-weight: bolder;
+    display: inline-block;
+  }
+
+  a:hover {
+    border-bottom: 2px solid #F3A61E;
+  }
+  

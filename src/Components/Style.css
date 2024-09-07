@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Arial', cursive;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form-group input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-group input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-group textarea {
+    width: 95%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color:rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group input[type="text"]:focus {
+    outline: none;
+    border-color:rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group input[type="number"]:focus {
+    outline: none;
+    border-color: rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submitBtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2e6ac9;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Arial', cursive;
+}
+
+.submitBtn:hover {
+    background-color: #0c59d4;
+}
+
+.required::after {
+    content: ' *';
+    color:rgba(54, 88, 110, 0.808);
+}
+
+select {
+    width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+select:focus {
+    outline: none;
+        border-color:#2e6ac9;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+/* Add Car CSS */
+
+.cards {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Arial', cursive;
+}
+
+.form-groups {
+    margin-bottom: 15px;
+}
+
+.form-groups label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form-groups input[type="text"] {
+    width: 35%;
+    padding: 9px;
+    margin-right: 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-groups input[type="number"] {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-groups textarea {
+    width: 35%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.form-groups textarea:focus {
+    outline: none;
+    border-color:rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-groups input[type="text"]:focus {
+    outline: none;
+    border-color:rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-groups input[type="number"]:focus {
+    outline: none;
+    border-color: rgba(54, 88, 110, 0.808);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.submitBtns {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2e6ac9;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Arial', cursive;
+}
+
+.submitBtns:hover {
+    background-color: #0c59d4;
+}
+
+.requireds::after {
+    content: ' *';
+    color:rgba(54, 88, 110, 0.808);
+}
+
+.selects {
+    width: 35%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333333;
+    font-family: 'Arial', cursive;
+}
+
+.selects:focus {
+    outline: none;
+        border-color:#2e6ac9;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
