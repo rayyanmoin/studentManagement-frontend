@@ -12,6 +12,7 @@ import Course from "./Components/Course.js";
 import Student from "./Components/Student.js";
 import AddTeachers from "./Components/AddTeacher.js";
 import AddCourse from "./Components/AddCourse.js";
+import AddStudent from "./Components/AddStudent.js";
 
 
 const AppRouter = () => {
@@ -30,6 +31,7 @@ const AppRouter = () => {
 				<Route path="/student" element={<Student />} />
 				<Route path="/addTeacher" element={<AddTeachers />} />
 				<Route path="/addCourse" element={<AddCourse />} />
+				<Route path="/addStudent" element={<AddStudent />} />
 			</Routes>
 		</Router>
 	);
